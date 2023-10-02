@@ -1,22 +1,21 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+import Header from './components/header/Header';
+import Example from './components/example/Example';
+import States from './components/states/States';
 
-// Example component
 function Example() {
   return (
     <div>
       <h2>Example View</h2>
-      {/* Add your Example component content here */}
     </div>
   );
 }
 
-// States component
 function States() {
   return (
     <div>
       <h2>States View</h2>
-      {/* Add your States component content here */}
     </div>
   );
 }
